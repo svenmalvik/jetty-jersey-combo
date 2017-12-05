@@ -12,7 +12,7 @@ public class AppResourceConfig extends Application {
     Set<Class<?>> classes = new HashSet<Class<?>>();
 
     public AppResourceConfig() {
-        classes.add(TestEndpoint.class);
+        classes.add(Endpoint.class);
     }
 
     public Set<Class<?>> getClasses() {

@@ -9,7 +9,7 @@ import javax.ws.rs.core.MediaType;
  * Created by smalvik on 05.12.2017.
  */
 @Path("/api")
-public class TestEndpoint {
+public class Endpoint {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
